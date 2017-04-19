@@ -6986,6 +6986,10 @@ textarea:-ms-input-placeholder      {color:#000 !important;}
 
 /*-- Новая Секция --*/
 
+.new_img-bg-info {
+  background-image: url('img/promo_bg.jpg');
+}
+
 .neg-margin-inner.padding-small {
   padding-bottom: 10px;
 }
@@ -7185,6 +7189,10 @@ textarea:-ms-input-placeholder      {color:#000 !important;}
 
 @media only screen and (max-width : 800px) {
 
+  .new_img-bg-info {
+    padding-top: 20px;
+  }
+
   .thumbnail {
     width: 100%;
   }
@@ -7236,9 +7244,25 @@ textarea:-ms-input-placeholder      {color:#000 !important;}
     max-width: 87px;
   }
 
+  .thumbnail.thumbnail-big .logo-block {
+    padding: 25px 1% 0 1%;
+  }
+
 }
 
 @media only screen and (max-width : 480px) {
+
+  .new_bottom-advantages {
+    margin-top: 5px;
+  }
+
+  .uktier-container .new_bottom-advantages h2 {
+    font-size: 22px;
+  }
+
+  .new_img-bg-info {
+    background-image: url('img/promo_bg_resp.jpg');
+  }
 
   .thumb-header {
     display: block;
