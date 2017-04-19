@@ -7053,17 +7053,17 @@ textarea:-ms-input-placeholder      {color:#000 !important;}
   margin: 0 0 0 -5%;
   padding: 15px 4% 11px 5%;
   background: rgba(0, 0, 0, .5);
-  -webkit-transform: skew(-20deg);
-  -moz-transform: skew(-20deg);
-  -o-transform: skew(-20deg);
+  -webkit-transform: skew(-12deg);
+  -moz-transform: skew(-12deg);
+  -o-transform: skew(-12deg);
 }
 
 .header-inner {
   display: inline-table;
   vertical-align: top;
-  -webkit-transform: skew(20deg);
-  -moz-transform: skew(20deg);
-  -o-transform: skew(20deg);
+  -webkit-transform: skew(12deg);
+  -moz-transform: skew(12deg);
+  -o-transform: skew(12deg);
 }
 
 .header-inner .img-box {
@@ -7079,7 +7079,6 @@ textarea:-ms-input-placeholder      {color:#000 !important;}
   height: auto;
 }
 
-
 .thumb-header .col {
   display: table-cell;
   vertical-align: middle;
@@ -7090,7 +7089,7 @@ textarea:-ms-input-placeholder      {color:#000 !important;}
 }
 
 .thumb-header .col-2 {
-
+  padding-right: 1%;
 }
 
 .thumb-header h3 {
@@ -7167,7 +7166,7 @@ textarea:-ms-input-placeholder      {color:#000 !important;}
   display: inline-table;
   vertical-align: top;
   width: 33%;
-  padding: 12px 1% 0 0;
+  padding: 12px 1% 0 1%;
   text-align: right;
 }
 
@@ -7184,6 +7183,91 @@ textarea:-ms-input-placeholder      {color:#000 !important;}
   height: auto;
 }
 
+@media only screen and (max-width : 800px) {
 
+  .thumbnail {
+    width: 100%;
+  }
+
+  .thumbnail:nth-child(2n) {
+    padding-right: 0;
+  }
+
+  .thumbnail:nth-child(2n + 1) {
+    padding-left: 0;
+  }
+
+  .thumbnail .inner {
+    height: auto;
+    min-height: 326px;
+  }
+
+  .thumb-header h3,
+  .thumbnail-big .thumb-header h3 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .thumbnail.thumbnail-big .thumb-header {
+    width: 80%;
+  }
+
+  .thumbnail.thumbnail-big .logo-block {
+    width: 33%;
+  }
+
+  .thumbnail-big .btn {
+    position: relative;
+    bottom: 0;
+    left: 16%;
+    margin: 45px 0 5px 0;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+
+  .thumbnail .thumb-header,
+  .thumbnail.thumbnail-big .thumb-header {
+      width: 100%;
+  }
+
+  .thumbnail.thumbnail-big .header-inner .img-box {
+    max-width: 87px;
+  }
+
+}
+
+@media only screen and (max-width : 480px) {
+
+  .thumb-header {
+    display: block;
+  }
+
+  .thumb-header .col {
+      display: inline-block;
+  }
+
+  .thumb-header .col-2 {
+      width: 100%;
+      padding: 0 1% 0 7%;
+  }
+
+  .thumbnail.thumbnail-big .thumb-header .col-1 {
+      width: 140px;
+  }
+
+  .thumbnail.thumbnail-big .logo-block {
+      width: 100%;
+      text-align: left;
+      padding: 17px 0 10px 5%;
+  }
+
+  .thumbnail-big .btn {
+      left: 5%;
+      margin: 8px 0 5px 0;
+  }
+
+}
 
 /*-- /Новая Секция --*/
