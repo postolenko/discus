@@ -1,1 +1,1 @@
-# http://github.com/postolenko/discus
+# http://postolenko.github.io/discus
