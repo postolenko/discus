@@ -1,0 +1,29 @@
+.wow {
+	visibility: visible !important;
+}
+
+.conditions-list li {
+	width: 23%;
+}
+
+.process-text {
+	padding-left: 55px;
+	margin-left: auto;
+}
+
+.process-text:first-child {
+	padding-right: 55px;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.process-img {
+	left: 59.1%;
+}
+
+.process-img:first-child {
+	right: 59.1%;
+	left: auto;
+}
+
+.bg-img{ position: absolute; }
